@@ -1,0 +1,63 @@
+anotação dos comandos de git 
+
+como criar um repositorio do zero 
+
+com o repositorio já criado
+git init = reinicia e inicia o comesso de um repositorio 
+
+git clone url = copia o que estiver no github para o seu desktop
+
+para atualizar o github 
+git status = para ver o que foi alterado (repare que está vermelho para deixar ok comando a baixo)
+
+git add . = para adicionar todos os arquivos (se você utilizar o comando acima vai ver tudo verde)
+
+git commit -m "" = indica o que vai ser enviado utilize para indicar o que fez de novo
+
+branch é uma area de trabalho que divide em varias linha diferentes 
+
+git checkout = para remover uma branch || git checkout -b nova_branch = move de branch e adicionar uma branch
+
+git push origin = envio para a branch pricipal || git push origin nome-branch = envio para outra branch
+
+anotação dos comandos node.js
+
+React
+baixa as dependencias
+npm i
+
+cria o react
+npx create-react-app ./
+
+baixa o sass e o scss
+npm i scss
+npm i sass
+
+baixa as rotas
+npm i react-router-dom
+
+baixa o as coisas nessesarias para fazer a conecção com a API
+npm i axios
+npm i local-storage
+
+npm i axios local-storage 
+
+
+estetica 
+npm i react-top-loading-bar
+npm i react-toastify
+
+npm i swiper
+
+
+ULTIMO A SER BAIXADO O npm i react-lottie --force
+
+API
+npm init -y
+npm i express cors dotenv nodemon mysql2
+npm i  
+
+
+coisa sobre o site
+
+está faltando todos os artistas gerais que não se encaicham em musica e literatura
