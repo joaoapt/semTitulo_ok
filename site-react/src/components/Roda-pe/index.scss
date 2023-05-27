@@ -1,0 +1,72 @@
+.rodape{
+    display: flex;
+    align-items: flex-end;
+    width: 1351px;
+    margin-bottom:-600px;
+    background-color: #FFF9BF;
+
+    *
+    a{
+        text-decoration: none;
+    }
+   
+    .conterne-rodapé
+    {
+        display: flex;
+
+    }
+
+    .logo-local{
+        margin: 35px 280px 0px 80px;
+    }
+    
+    .logo
+    {
+        width: 240px;
+        transform: scaleX(-1);
+    }
+
+
+    .texto-rodapé
+    {
+        width: 130px;
+        height: 20;
+        margin: 0px 120px 50px 0px;
+    }
+
+    h1
+    {
+        font-weight: 700;
+        margin-bottom: 22px;
+        font-size: 30px;
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p
+    {   
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 25px;
+        margin-top: -11px;
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+  
+    .git-img{
+        margin-top: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .git{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .git-k{
+        text-decoration: none;
+        width: 50px;
+    }
+}

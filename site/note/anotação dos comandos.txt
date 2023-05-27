@@ -61,3 +61,12 @@ npm i
 coisa sobre o site
 
 está faltando todos os artistas gerais que não se encaicham em musica e literatura
+
+Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Inter:wght@400;800&family=Montserrat:wght@500;700&display=swap');
+
+
+font-family: 'Comfortaa', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;

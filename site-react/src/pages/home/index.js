@@ -1,10 +1,13 @@
 import './index.scss';
+import Rodape from '../../components/Roda-pe';
+import Buscar from '../../components/buscar';
 import { Link } from 'react-router-dom';
 
 export default function Index() {
     return(
-        <main>
-            <h1>Olá meu bom</h1>
+        <main className='Home'>
+            <nav><Buscar/></nav>
+            <br/><br/><br/><br/><br/>
             <div>
                 <div>
                     <Link to='/categoria/comunicador' className='botão-comunicar'>
@@ -42,6 +45,8 @@ export default function Index() {
                     </Link>
                 </div>
             </div>
+            <br/><br/><br/><br/><br/><br/>
+            <footer><Rodape/></footer>
         </main>
     )
 }
