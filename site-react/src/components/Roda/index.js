@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export default function Index() {
     return(
-        <footer className='rodape'>
-            <div className='conterne-rodapé'>
+        <footer className='rodape-'>
+            <div className='conterne-rodap'>
              
              <div  className='logo-local'>
                 <Link to='/'> 
@@ -12,43 +12,43 @@ export default function Index() {
                 </Link>
             </div>   
             
-            <div className='texto-rodapé'>
-                <h1>Início</h1>
+            <div className='texto-roda'>
+                <h1 className='titulo-roda'>Início</h1>
                 
                 <Link to='/' className='aa'>
-                    <p>Home</p>
+                    <p className='sub-roda'>Home</p>
                 </Link>
                 <Link to='/' className='aa'>
-                    <p>Motivos</p>
+                    <p className='sub-roda'>Motivos</p>
                 </Link>
                 <Link to='/' className='aa'>
-                    <p>Criação</p>
+                    <p className='sub-roda'>Criação</p>
                 </Link>
             </div>
-            <div className='texto-rodapé'>
-                <h1>Categoria</h1>
+            <div className='texto-roda'>
+                <h1 className='titulo-roda'>Categoria</h1>
                  
                 <Link to='/' className='aas'>
-                    <p>Ativistas</p>
+                    <p className='sub-roda'>Ativistas</p>
                 </Link> 
                 <Link to='/' className='aas'>
-                    <p>Artistas</p>
+                    <p className='sub-roda'>Artistas</p>
                 </Link> 
                 <Link to='/' className='aas'>
-                    <p>Cientistas</p>
+                    <p className='sub-roda'>Cientistas</p>
                 </Link> 
                 <Link to='/' className='aas'>
-                    <p>Comunicadores</p>
+                    <p className='sub-roda'>Comunicadores</p>
                 </Link> 
                 <Link to='/' className='aas'>
-                    <p>Musicos</p>
+                    <p className='sub-roda'>Musicos</p>
                 </Link> 
                 <Link to='/' className='aas'>
-                    <p>Politicos</p>
+                    <p className='sub-roda'>Politicos</p>
                 </Link> 
             </div>
-            <div className='texto-rodapé'>
-                <h1>Contatos</h1>
+            <div className='texto-roda'>
+                <h1 className='titulo-roda'>Contatos</h1>
                 <div className='git-img'>
                     <Link className='git' to=''> <img className='git-k' src='/img/insta.png' alt='insta'/></Link>
                     <Link className='git' to='https://github.com/joaoapt/semTitulo_ok.git'> <img className='git-k' src='/img/git.png' alt='git'/></Link>

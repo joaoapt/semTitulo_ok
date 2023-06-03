@@ -1,28 +1,85 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
-
+import Buscar from '../../../components/buscar';
 
 export default function Index() {
     return(
-        <main>
-            <h1>Olá meu esporta</h1>
-            <div>
-                <Link to='/public/esporte/senna' className='botão-comunicar'>
-                    Ayrtou Senna
-                </Link>
-                <br/>
-                <Link to='/public/esporte/guga' className='botão-comunicar'>
-                    GuGa
-                </Link>
-                <br/>
-                <Link to='/public/esporte/pele' className='botão-comunicar'>
-                    Pele
-                </Link>
-                <br/>
-                <Link to='/public/esporte/socrates' className='botão-comunicar'>
-                    Socrates
-                </Link>
+        <main className='main-esportsta'>
+            <nav><Buscar/></nav>
+            <h1 className='titulo-pri'>ESPORTISTAS</h1>
+
+<div className='conteiner'>
+            <div className='local'>
+            <div className="card">
+                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+                <div  className='local-escrita'>
+                    <div className='sobre'>
+                        <h1 className='nome'>Silvio Santos</h1> 
+                        <p className="title">Empresário e apresentador de televisão</p>
+                    </div>
+                    <div className='botão-local'>
+                        <Link  to='/public/comunicador/silvio' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                    </div>
+                </div>
             </div>
+            </div>
+
+            
+            <div className='local'>
+            <div className="card">
+                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+                <div  className='local-escrita'>
+                    <div className='sobre'>
+                        <h1 className='nome'>Gloria Maria</h1> 
+                        <p className="title">Jornalista</p>
+                    </div>
+                    <div className='botão-local'>
+                        <Link  to='/public/comunicador/gloria' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div className='local'>
+            <div className="card">
+                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+                <div  className='local-escrita'>
+                    <div className='sobre'>    
+                        <h1 className='nome'>Maria Júlia Coutinho</h1> 
+                        <p className="title">Jornalista</p>
+                    </div>
+                   <div className='botão-local'>
+                        <Link to='/public/comunicador/maju' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                   </div>
+                </div>
+            </div>
+            </div>
+
+            <div className='local'>
+            <div className="card">
+                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+                <div className='local-escrita'>    
+                    <div className='sobre'>
+                        <h1 className='nome'>Mauricio de Sousa</h1> 
+                        <p className="title">Cartunista</p>
+                    </div>
+                    <div className='botão-local'>
+                        <Link to='/public/comunicador/mauricio' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            </div>
+           </div> 
+
+           <br/> <br/> <br/> <br/>
         </main>
     )
 }

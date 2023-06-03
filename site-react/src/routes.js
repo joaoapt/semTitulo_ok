@@ -9,8 +9,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //Páginas não ok
 import Home from './pages/home';
 
-import CatAtivista from './pages/categoria/ativistas'
-import CatArtistas from './pages/categoria/artistas';
+import CatAtivista from './pages/categoria/ativista'
+import CatReligiosos from './pages/categoria/religiosos';
 import CatCientistas from './pages/categoria/cientistas';
 import CatEsportes from './pages/categoria/esportes';
 import CatMusicos from  './pages/categoria/musicos';
@@ -64,8 +64,8 @@ export default function Index() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
     
-                <Route path="/categoria/artistas" element={<CatArtistas/>}/>
-                <Route path="/categoria/ativistas" element={<CatAtivista/>}/>
+                <Route path="/categoria/religioso" element={<CatReligiosos/>}/>
+                <Route path="/categoria/ativista" element={<CatAtivista/>}/>
                 <Route path="/categoria/cientistas" element={<CatCientistas/>}/>
                 <Route path="/categoria/esportes" element={<CatEsportes/>}/>
                 <Route path="/categoria/musicos" element={<CatMusicos/>}/>

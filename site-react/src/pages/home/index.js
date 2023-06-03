@@ -1,5 +1,5 @@
 import './index.scss';
-import Rodape from '../../components/Roda-pe';
+import Roda from '../../components/Roda'
 import Buscar from '../../components/buscar';
 import { Link } from 'react-router-dom';
 
@@ -28,11 +28,11 @@ export default function Index() {
                 </div>
                 <br/>
                 <div>
-                    <Link to='/categoria/artistas' className='botão-comunicar'>
-                        Artistas
+                    <Link to='/categoria/religioso' className='botão-comunicar'>
+                        Religiosos
                     </Link>
                     <br/>
-                    <Link to='/categoria/ativistas' className='botão-comunicar'>
+                    <Link to='/categoria/ativista' className='botão-comunicar'>
                         Ativistas
                     </Link>
                     <br/>
@@ -46,7 +46,7 @@ export default function Index() {
                 </div>
             </div>
             <br/><br/><br/><br/><br/><br/>
-            <footer><Rodape/></footer>
+            <footer><Roda/></footer>
         </main>
     )
 }

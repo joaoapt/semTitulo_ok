@@ -4,9 +4,9 @@ import Buscar from '../../../components/buscar';
 
 export default function Index() {
     return(
-        <main className='main-musico'>
+        <main className='main-ativistas'>
             <nav><Buscar/></nav>
-            <h1 className='titulo-pri'>MÚSICOS</h1>
+            <h1 className='titulo-pri'>ATIVISTAS</h1>
 
 <div className='conteiner'>
             <div className='local'>
