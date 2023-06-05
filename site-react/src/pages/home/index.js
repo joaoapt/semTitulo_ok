@@ -1,5 +1,4 @@
 import './index.scss';
-import Roda from '../../components/Roda'
 import Buscar from '../../components/buscar';
 import { Link } from 'react-router-dom';
 
@@ -7,46 +6,58 @@ export default function Index() {
     return(
         <main className='Home'>
             <nav><Buscar/></nav>
-            <br/><br/><br/><br/><br/>
-            <div>
-                <div>
-                    <Link to='/categoria/comunicador' className='botão-comunicar'>
-                        Comunicadores
+            <div className='conteiner-principal'>
+                <div className='conteriner-secundario'>
+                    <Link to='/categoria/comunicador'>
+                        <div className='background-comunic'>
+                            <h2>Comunicadores</h2>
+                        </div>
                     </Link>
-                    <br/>
-                    <Link to='/categoria/musicos' className='botão-comunicar'>
-                        Músicos
+                    
+                    <Link to='/categoria/musicos' >
+                        <div className='background-music'>
+                            <h2>Músicos</h2>
+                        </div>
                     </Link>
-                    <br/>
-                    <Link to='/categoria/cientistas' className='botão-comunicar'>
-                        Cientistas
+                    
+                    <Link to='/categoria/cientistas' >
+                        <div className='background-cien'>
+                            <h2>Cientistas</h2>
+                        </div>
                     </Link>
-                    <br/>
-                    <Link to='/categoria/esportes' className='botão-comunicar'>
-                        Esportistas
+                    
+                    <Link to='/categoria/esportes' >
+                        <div className='background-espor'>
+                            <h2>Esportistas</h2>
+                        </div>
                     </Link>
                 </div>
-                <br/>
-                <div>
-                    <Link to='/categoria/religioso' className='botão-comunicar'>
-                        Religiosos
+                <div className='conteriner-secundario'>
+                    <Link to='/categoria/religioso' >
+                        <div className='background-reli'>
+                            <h2>Religiosos</h2>
+                        </div>
                     </Link>
-                    <br/>
-                    <Link to='/categoria/ativista' className='botão-comunicar'>
-                        Ativistas
+                    
+                    <Link to='/categoria/ativista' >
+                        <div className='background-ativi'>
+                            <h2>Ativistas</h2>
+                        </div>
                     </Link>
-                    <br/>
-                    <Link to='/categoria/politico' className='botão-comunicar'>
-                        Politicos
+
+                    <Link to='/categoria/politico' >
+                        <div className='background-poli'>
+                            <h2>Politicos</h2>
+                        </div>
                     </Link>
-                    <br/>
-                    <Link to='/categoria/literarico' className='botão-comunicar'>
-                        Literaricos
+                    
+                    <Link to='/categoria/literarico' >
+                        <div className='background-lite'>   
+                            <h2>Literaricos</h2>
+                        </div>
                     </Link>
                 </div>
             </div>
-            <br/><br/><br/><br/><br/><br/>
-            <footer><Roda/></footer>
         </main>
     )
 }

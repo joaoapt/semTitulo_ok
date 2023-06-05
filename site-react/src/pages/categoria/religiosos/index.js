@@ -14,11 +14,11 @@ export default function Index() {
                 <img className='img-silvio' src='/img/silvio.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
-                        <h1 className='nome'>Silvio Santos</h1> 
+                        <h1 className='nome'>Irmã Dulce</h1> 
                         <p className="title">Empresário e apresentador de televisão</p>
                     </div>
                     <div className='botão-local'>
-                        <Link  to='/public/comunicador/silvio' className='botão-comunicar'>
+                        <Link  to='/public/religiao/irma' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>

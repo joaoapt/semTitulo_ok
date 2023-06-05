@@ -3,14 +3,17 @@
     margin-top: -8px;
     margin-bottom: -8px;
     margin-left: -8px;
-    width: 1350px;
-    
+    width: 101.20%;
 
-    background: linear-gradient(181deg, #f8ea6d, #fba438, #ff5c00);
+    nav{
+        width: 100.0%;
+    }
+
+    background: linear-gradient(181deg, #f8ea6d, #fba438);
     background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 17s ease infinite;
-    animation: AnimationName 17s ease infinite;
+    -webkit-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
 
     
     @-webkit-keyframes AnimationName {
@@ -31,7 +34,7 @@
         font-weight: 600;
         margin-top: 95px;
         text-align: center;
-        font-size: 105px;
+        font-size: 84px;
         color: #FFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     }

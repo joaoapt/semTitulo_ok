@@ -14,11 +14,11 @@ export default function Index() {
                 <img className='img-silvio' src='/img/silvio.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
-                        <h1 className='nome'>Silvio Santos</h1> 
+                        <h1 className='nome'>Carolina</h1> 
                         <p className="title">Empresário e apresentador de televisão</p>
                     </div>
                     <div className='botão-local'>
-                        <Link  to='/public/comunicador/silvio' className='botão-comunicar'>
+                        <Link  to='/public/literatura/carolina' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
@@ -32,11 +32,11 @@ export default function Index() {
                 <img className='img-silvio' src='/img/silvio.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
-                        <h1 className='nome'>Gloria Maria</h1> 
+                        <h1 className='nome'>Ciarise</h1> 
                         <p className="title">Jornalista</p>
                     </div>
                     <div className='botão-local'>
-                        <Link  to='/public/comunicador/gloria' className='botão-comunicar'>
+                        <Link  to='/public/literatura/ciarise' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
@@ -49,11 +49,11 @@ export default function Index() {
                 <img className='img-silvio' src='/img/silvio.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>    
-                        <h1 className='nome'>Maria Júlia Coutinho</h1> 
+                        <h1 className='nome'>Lima</h1> 
                         <p className="title">Jornalista</p>
                     </div>
                    <div className='botão-local'>
-                        <Link to='/public/comunicador/maju' className='botão-comunicar'>
+                        <Link to='/public/literatura/lima' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                    </div>
@@ -66,11 +66,27 @@ export default function Index() {
                 <img className='img-silvio' src='/img/silvio.png' alt=''/>
                 <div className='local-escrita'>    
                     <div className='sobre'>
-                        <h1 className='nome'>Mauricio de Sousa</h1> 
+                        <h1 className='nome'>Montero Lobato</h1> 
                         <p className="title">Cartunista</p>
                     </div>
                     <div className='botão-local'>
-                        <Link to='/public/comunicador/mauricio' className='botão-comunicar'>
+                        <Link to='/public/literatura/montero' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div className='local'>
+            <div className="card">
+                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+                <div className='local-escrita'>    
+                    <div className='sobre'>
+                        <h1 className='nome'>Paulo Coelho</h1> 
+                        <p className="title">Cartunista</p>
+                    </div>
+                    <div className='botão-local'>
+                        <Link to='/public/literatura/paulo' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>

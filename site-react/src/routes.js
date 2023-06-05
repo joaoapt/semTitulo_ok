@@ -77,7 +77,6 @@ export default function Index() {
                 <Route path="/categoria/comunicador" element={<CatComunicador/>}/>
 
                 <Route path="/public/ativistas/almeida" element={<PubAlmeida/>}/>
-                <Route path="/public/ativistas/irma" element={<PubIrmã/>}/>
                 <Route path="/public/ativistas/luiz" element={<PubLuiz/>}/>
                 <Route path="/public/ativistas/marighella" element={<PubMarighella/>}/>
                 <Route path="/public/ativistas/zunbi" element={<PubZumbi/>}/>
@@ -114,6 +113,7 @@ export default function Index() {
                 <Route path="/publici/politico/lula" element={<PubLula/>}/>
                 <Route path="/publici/politico/marechal" element={<PubMarechal/>}/>
 
+                <Route path="/public/religiao/irma" element={<PubIrmã/>}/>
             </Routes>
         </BrowserRouter>
     )

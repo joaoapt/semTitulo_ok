@@ -8,5 +8,110 @@
     footer{
         margin-bottom: -20px;
     }
+
+    .conteiner-principal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
+    .conteriner-secundario{
+        margin: 18px 60px 125px 60px;
+    }
+
+    a{
+        color: #fff;
+        font-family: 'Comfortaa', cursive;
+        text-decoration: none;
+    }
+
+    h2{
+        margin-left: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+    .background-comunic{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 66px;
+        background: linear-gradient(180deg, #F8EA6D 0%, #FF5C00 169.04%);
+    }
+
+    .background-music{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 66px;
+        background: linear-gradient(180deg, #3F3F3F 0%, #777777 143.46%);
+    }
+
+    .background-cien{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 66px;
+        background: linear-gradient(180deg, #8CCCF0 0%, #008000 108.08%);
+    }
+
+    .background-espor{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 66px;
+        background: linear-gradient(180.02deg, #00803B 10.38%, #0047FF 248.76%);
+    }
+
+    .background-reli{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 66px;
+        background: linear-gradient(180.02deg, #0000FF -24.01%, #F20000 120.16%);
+    }
+
+    .background-ativi{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 66px;
+        background: linear-gradient(180.77deg, #9D3232 -6.43%, rgba(189, 31, 31, 0.9375) -6.42%, #000000 144.24%)
+    }
+
+    .background-poli{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 66px;
+        background: linear-gradient(180deg, rgba(0, 128, 59, 0.93) 14.8%, rgba(255, 215, 0, 0.93) 124.37%);
+    }
+
+    .background-lite{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        height: 260px;
+        margin-top: 66px;
+        background: linear-gradient(180deg, rgba(157, 50, 50, 0.93) 47.33%, rgba(252, 0, 0, 0.93) 112.38%);
+    }
+
+
+
 }
