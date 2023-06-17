@@ -3,17 +3,8 @@
     margin-left: -8px;
     
     .conteudo{
-        margin: 100px 0px 70px 0px;
-    }
-    
-
-    .titulo-texto{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 600;
-        font-size: 64px;
-        font-family: 'Inter', sans-serif;
+        margin: auto;
+        margin: 90px 0px 70px 0px;
     }
 
     .img-sim{
@@ -24,7 +15,11 @@
     }
 
     .img-re{
-        width: 70%;
+        width: 75%;
+        max-width: 850px;
+        height: 80%;
+        margin: auto;
+        border-radius:5px ;
     }
 
 
@@ -35,11 +30,5 @@
         align-items: center;
     }
 
-    .sub-texto{
-        font-size: 25px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-        width: 70%;
-    }
 
 }

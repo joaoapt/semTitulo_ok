@@ -10,7 +10,7 @@ export default function Index (){
                     <img className='logo' src="/img/piintoo.png" alt='logo'/>
                 </Link>
                 <Link to='/'className='titulo'>
-                    <h1>Ícones Brasil</h1>
+                    <h1 className='titulo-logo'>Narrativas Brasileiras</h1>
                 </Link>
             </div>
         </nav>

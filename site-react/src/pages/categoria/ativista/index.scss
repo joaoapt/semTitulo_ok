@@ -1,44 +1,28 @@
 .main-ativistas{
- 
-    margin-top: -8px;
-    margin-bottom: -8px;
-    margin-left: -8px;
-    width: 101.20%;
+    width: 100%;
 
-    nav{
-        width: 100.0%;
-    }
+a{
+    text-decoration: none;
+}
     
+    background-color: #C71FC7;
+    //background: linear-gradient(180.77deg, #9D3232 -6.43%, rgba(189, 31, 31, 0.9375) -6.42%, #000000 144.24%);
+    // background-size: 600% 600%;
 
-    background: linear-gradient(180.77deg, #9D3232 -6.43%, rgba(189, 31, 31, 0.9375) -6.42%, #000000 144.24%);
-    background-size: 600% 600%;
-
-    -webkit-animation: AnimationName 17s ease infinite;
-    animation: AnimationName 17s ease infinite;
+    // -webkit-animation: AnimationName 17s ease infinite;
+    // animation: AnimationName 17s ease infinite;
 
     
-    @-webkit-keyframes AnimationName {
-        0%{background-position:51% 0%}
-        50%{background-position:50% 100%}
-        100%{background-position:51% 0%}
-    }
-    @keyframes AnimationName {
-        0%{background-position:51% 0%}
-        50%{background-position:50% 100%}
-        100%{background-position:51% 0%}
-    }
-
-    
-    
-    .titulo-pri{
-        font-family: 'Comfortaa', cursive;
-        font-weight: 600;
-        margin-top: 95px;
-        text-align: center;
-        font-size: 105px;
-        color: #FFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+    // @-webkit-keyframes AnimationName {
+    //     0%{background-position:51% 0%}
+    //     50%{background-position:50% 100%}
+    //     100%{background-position:51% 0%}
+    // }
+    // @keyframes AnimationName {
+    //     0%{background-position:51% 0%}
+    //     50%{background-position:50% 100%}
+    //     100%{background-position:51% 0%}
+    // }
 
     .sobre{
         margin-top: 50px;
@@ -46,11 +30,14 @@
     }
     
     .nome{
-        width: 500px;
+        width: 100%;
+        max-width: 500px;
         font-family: 'Inter', sans-serif;
     }
+
     .title{
-        width: 400px;
+        width: 90%;
+        max-width: 400px;
         margin-top: -20px;
         font-family: 'Montserrat', sans-serif;
     }
@@ -76,34 +63,245 @@
     }
     
     .img-silvio{
-        margin-right: -60px;
-        margin-top: 20px;
-        margin-left: -15px;
-        width: 350px;
+        margin-top: x0px;
+        height: 100%;
+        max-height: 260px;
+        width: 100%;
+        max-width: 300px;
+        border-radius: 30px;
     }
+   
     
     .card {
         color: #FFF;
         border-radius: 20px;
         box-shadow: 0px 5px 15px 8px rgba(0,0,0,0.75);
-        width: 805px;
-        height: 256px;
+        width: 90%;
+        height: 90%;
+        max-width: 805px;
+        max-height: 256px;
         display: flex;
         background-color: #181818;
     }
     
-    .botão-comunicar{
-        margin-top: 200px;
-        font-size: 25px;
-        font-family: 'Montserrat', sans-serif;
-        height: 47px;
-        width: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        background-color: #FFE976;
-        border-radius: 25px;
-        color: #000;
+    @media (max-width: 835px){
+        .botão-comunicar{
+            margin-top: 170px;
+        }
+        .sobre{
+            width: 300px;
+        }
+    }
+    @media (max-width: 835px){
+        .sobre{
+            width: 250px;
+        }
+    }
+    
+    @media (max-width: 730px){
+        .sobre{
+            width: 230px;
+        }
+    }
+    @media (max-width: 700px){
+        .botão-local{
+            margin-left: -30px;
+        }
+    }
+    @media (max-width: 666px){
+        .botão-local{
+            margin-left: -50px;
+        }
+    }
+
+    
+    @media (max-width: 640px){
+        .botão-local{
+            margin-top: -30px;
+            margin-left: -35px;
+        }
+        .img-silvio{
+            margin-top: 5px;
+            height: 200px;
+            width: 300px;
+        }
+    }
+
+    @media (max-width: 640px){
+        .botão-local{
+            margin-top: -30px;
+            margin-left: -55px;
+        }
+        .img-silvio{
+            margin-top: 5px;
+            height:190px;
+            width: 200px;
+        }
+    }
+
+    @media (max-width: 500px){
+        .card{
+            height: 90%;
+            width: 90%;
+        }
+        .botão-comunicar{
+            width: 120%;height:40px;
+            font-size: 60%;
+        }
+        .botão-local{
+            margin-top: -30px;
+            margin-left: -55px;
+        }
+        .img-silvio{
+            margin-top: 5px;
+            height:190px;
+            width: 200px;
+        }
+    
+    }
+    
+    @media (max-width: 480px){
+        .card{
+            height: 90%;
+            width: 90%;
+        }
+        .botão-comunicar{
+            width: 120%;height:40px;
+            font-size: 60%;
+        }
+        .botão-local{
+            margin-top: -40px;
+            margin-left: -0px;
+        }
+        .img-silvio{
+            margin-top: 0px;
+            height:180px;
+            width: 180px;
+        }
+        .sobre{
+            font-size: 80%;
+            width: 70%;
+        }
+    }
+
+    @media (max-width: 458px){
+        .card{
+            width: 80%;
+        }
+        .botão-comunicar{
+            width: 110%;height:30px;
+            font-size: 60%;
+        }
+        .botão-local{
+            margin-top: -65px;
+            margin-left: -30px;
+        }
+        .img-silvio{
+            margin-top: 0px;
+            height:150px;
+            width: 150px;
+        }
+        .sobre{
+            font-size: 60%;
+            width: 80%;
+        }
+        .title{
+            margin-top: -15px ;
+        }
+    }
+
+    @media (max-width: 430px){
+        .card{
+            width: 76%;
+        }
+        .botão-comunicar{
+            width: 110%;height:30px;
+            font-size: 55%;
+        }
+        .botão-local{
+            margin-top: -65px;
+            margin-left: -30px;
+        }
+        .img-silvio{
+            margin-top: 0px;
+            height:150px;
+            width: 150px;
+        }
+        .sobre{
+            font-size: 60%;
+            width: 80%;
+        }
+        .title{
+            margin-top: -15px ;
+        }
+    }
+    @media (max-width: 400px){
+        .sobre{
+            font-size: 55%;
+            width: 80%;
+        }
+    }
+
+
+    @media (max-width: 380px){
+        .card{
+            width: 80%;
+        }
+        .botão-comunicar{
+            width: 110%;height:30px;
+            font-size: 55%;
+        }
+        .botão-local{
+            margin-top: -65px;
+            margin-left: -30px;
+        }
+        .img-silvio{
+            margin-top: 0px;
+            height:150px;
+            width: 150px;
+        }
+        .sobre{
+            font-size: 50%;
+            width: 80%;
+        }
+        .title{
+            margin-top: -15px ;
+        }
+    }
+
+    
+    @media (max-width: 355px){
+        .card{
+            width: 90%;
+        }
+        .titulo-categoria{
+            font-size: 160%;
+        }
+        .botão-comunicar{
+            width: 110%;height:30px;
+            font-size: 55%;
+        }
+        .botão-local{
+            margin-top: -65px;
+            margin-left: -30px;
+        }
+        .img-silvio{
+            margin-top: 0px;
+            height:150px;
+            width: 150px;
+        }
+        .sobre{
+            font-size: 70%;
+            width: 80%;
+        }
+        .title{
+            margin-top: -15px ;
+        }
+    }
+    @media (max-width: 329px){
+        .sobre{
+            font-size: 60%;
+            width: 80%;
+        }
     }
 }
