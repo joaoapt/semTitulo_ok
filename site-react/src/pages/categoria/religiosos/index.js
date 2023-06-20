@@ -10,72 +10,72 @@ export default function Index() {
 
 <div className='conteiner'>
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link  to='/public/religiao/irma-duce' className="card">
+                <img className='img-silvio' src='/img/duce.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
                         <h1 className='nome'>Irmã Dulce</h1> 
-                        <p className="title">Empresário e apresentador de televisão</p>
+                        <p className="title">Freira</p>
                     </div>
                     <div className='botão-local'>
-                        <Link  to='/public/religiao/irma' className='botão-comunicar'>
+                        <Link  to='/public/religiao/irma-duce' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link  to='/public/religiao/mae' className="card">
+                <img className='img-silvio' src='/img/mae.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
-                        <h1 className='nome'>Gloria Maria</h1> 
-                        <p className="title">Jornalista</p>
+                        <h1 className='nome'> Mãe Menininha</h1> 
+                        <p className="title">Ialorixá (mãe-de-santo)</p>
                     </div>
                     <div className='botão-local'>
-                        <Link  to='/public/comunicador/gloria' className='botão-comunicar'>
+                        <Link  to='/public/religiao/mae' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link to='/public/religiao/chico' className="card">
+                <img className='img-silvio' src='/img/chico.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>    
-                        <h1 className='nome'>Maria Júlia Coutinho</h1> 
-                        <p className="title">Jornalista</p>
+                        <h1 className='nome'>Chico Xavier</h1> 
+                        <p className="title"> Médium e Filantropo</p>
                     </div>
                    <div className='botão-local'>
-                        <Link to='/public/comunicador/maju' className='botão-comunicar'>
+                        <Link to='/public/religiao/chico' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                    </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link to='/public/religiao/helder' className="card">
+                <img className='img-silvio' src='/img/don.png' alt=''/>
                 <div className='local-escrita'>    
                     <div className='sobre'>
-                        <h1 className='nome'>Mauricio de Sousa</h1> 
-                        <p className="title">Cartunista</p>
+                        <h1 className='nome'>Hélder Câmara</h1> 
+                        <p className="title">Bispo Católico</p>
                     </div>
                     <div className='botão-local'>
-                        <Link to='/public/comunicador/mauricio' className='botão-comunicar'>
+                        <Link to='/public/religiao/helder' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Link>
             </div>
            </div> 
 

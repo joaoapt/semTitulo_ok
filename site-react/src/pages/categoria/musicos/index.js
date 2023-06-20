@@ -10,47 +10,45 @@ export default function Index() {
 
 <div className='conteiner'>
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link  to='/public/musico/mano-brown' className="card">
+                <img className='img-silvio' src='/img/mano.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
-                        <h1 className='nome'>Carmem</h1> 
-                        <p className="title">Empresário e apresentador de televisão</p>
+                        <h1 className='nome'>Mano Brown</h1> 
+                        <p className="title">Raper</p>
                     </div>
                     <div className='botão-local'>
-                        <Link  to='/public/musico/carmem' className='botão-comunicar'>
+                        <Link  to='/public/musico/mano-brown' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
                 </div>
-            </div>
-            </div>
-
-            
-            <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
-                <div  className='local-escrita'>
-                    <div className='sobre'>
-                        <h1 className='nome'>Cascão</h1> 
-                        <p className="title">Jornalista</p>
-                    </div>
-                    <div className='botão-local'>
-                        <Link  to='/public/musico/cascao' className='botão-comunicar'>
-                            <p>ver sobre</p>
-                        </Link>
-                    </div>
-                </div>
-            </div>
+            </Link>
             </div>
 
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link to='/public/musico/ferrez' className="card">
+                <img className='img-silvio' src='/img/ferrez.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>    
-                        <h1 className='nome'>Elsa</h1> 
-                        <p className="title">Jornalista</p>
+                        <h1 className='nome'>Ferrez</h1> 
+                        <p className="title">Raper</p>
+                    </div>
+                   <div className='botão-local'>
+                        <Link to='/public/musico/ferrez' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                   </div>
+                </div>
+            </Link>
+            </div>
+            <div className='local'>
+            <Link to='/public/musico/elsa' className="card">
+                <img className='img-silvio' src='/img/Elza.png' alt=''/>
+                <div  className='local-escrita'>
+                    <div className='sobre'>    
+                        <h1 className='nome'>Elza Soares</h1> 
+                        <p className="title">Samba e Jazz</p>
                     </div>
                    <div className='botão-local'>
                         <Link to='/public/musico/elsa' className='botão-comunicar'>
@@ -58,42 +56,28 @@ export default function Index() {
                         </Link>
                    </div>
                 </div>
+            </Link>
             </div>
+            <div className='local'>
+            <Link to='/public/musico/gabriel-o-pensador' className="card">
+                <img className='img-silvio' src='/img/gabriel-O.png' alt=''/>
+                <div  className='local-escrita'>
+                    <div className='sobre'>    
+                        <h1 className='nome'>Gabriel o Pensador</h1> 
+                        <p className="title">Raper</p>
+                    </div>
+                   <div className='botão-local'>
+                        <Link to='/public/musico/gabriel-o-pensador' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                   </div>
+                </div>
+            </Link>
             </div>
 
-            <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
-                <div className='local-escrita'>    
-                    <div className='sobre'>
-                        <h1 className='nome'>Mano Brown</h1> 
-                        <p className="title">Cartunista</p>
-                    </div>
-                    <div className='botão-local'>
-                        <Link to='/public/musico/mano' className='botão-comunicar'>
-                            <p>ver sobre</p>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            </div>
-              <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
-                <div className='local-escrita'>    
-                    <div className='sobre'>
-                        <h1 className='nome'>Vila Lobos</h1> 
-                        <p className="title">Cartunista</p>
-                    </div>
-                    <div className='botão-local'>
-                        <Link to='/public/musico/vila' className='botão-comunicar'>
-                            <p>ver sobre</p>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            </div>
            </div> 
+
+           
 
            <br/> <br/> <br/> <br/>
         </main>

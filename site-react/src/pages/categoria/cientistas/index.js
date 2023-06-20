@@ -11,11 +11,11 @@ export default function Index() {
 <div className='conteiner'>
             <div className='local'>
             <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+                <img className='img-silvio' src='/img/santos.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
                         <h1 className='nome'>Satos Dummont</h1> 
-                        <p className="title">Empresário e apresentador de televisão</p>
+                        <p className="title">Inventor e Aeronauta</p>
                     </div>
                     <div className='botão-local'>
                         <Link  to='/public/cientista/santos' className='botão-comunicar'>
@@ -27,22 +27,6 @@ export default function Index() {
             </div>
 
             
-            <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
-                <div  className='local-escrita'>
-                    <div className='sobre'>
-                        <h1 className='nome'>Virginia</h1> 
-                        <p className="title">Jornalista</p>
-                    </div>
-                    <div className='botão-local'>
-                        <Link  to='/public/cientista/virginia' className='botão-comunicar'>
-                            <p>ver sobre</p>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            </div>
 
             <div className='local'>
             <div className="card">

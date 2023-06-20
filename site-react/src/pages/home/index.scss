@@ -6,48 +6,34 @@
     margin-top: -8px;
     margin-left: -8px;
 
-    .img-home{
-        margin-left: 50px;
+    .img{
+        margin-top: 9px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
         border-radius: 20px;
         width: 100%;
-        max-width: 185px;
+        height: 100%;
+        max-width: 250px;
+        max-height: 245px;
+    }
+    .bloco-in{
+        width: 150px;
     }
 
-    .img-comunicador{
-        border-radius: 20px;
-        margin-left:110px ;
-        width: 100%;
-        max-width: 250px;
+    .img-sil{
+        width: 200px;
+        height: 200px;
         transform: scaleX(-1);
     }
-
-    .img-musicos{
-        border-radius: 20px;
+    .divisão{
         width: 100%;
-        max-width: 250px;
-        margin-left: -5px;
-    }
-
-    .img-lite{
-        border-radius: 10px;
-        width: 100%;
-        max-width: 240px;
-    }
-
-    .img-cien{
-        margin-left: 40px;
-        border-radius: 20px;
-        margin-top: -20px;
-        width: 100%;
-        max-width: 200px;
-        max-height: 265px;
-    }
-
-    .img-es{
-        margin-left: 20px;
-        border-radius: 10px;
-        width: 100%;
-        max-width: 240px;
+        height: 100%;
+        max-width: 1100px;
+        max-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-self: center;
     }
 
     footer{
@@ -75,16 +61,8 @@
 
     h2{
         width: 100%;
-        max-width: 210px;
+        max-width: 225px;
         margin-left: 20px;
-        font-style: normal;
-        font-weight: 600;
-    }
-
-    h3{
-        width: 100%;
-        max-width: 130px;
-        margin-left: 9px;
         font-style: normal;
         font-weight: 600;
     }
@@ -92,10 +70,8 @@
     .background-comunic{
         display: flex;
         align-items: center;
-        width: 100%;
-        min-width: 500px;
-        height: 100%;
-        min-height: 260px;
+        width: 500px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 66px;
         //background-color: #FF0000;
@@ -106,10 +82,8 @@
     .background-music{
         display: flex;
         align-items: center;
-        width: 100%;
-        min-width: 500px;
-        height: 100%;
-        min-height: 260px;
+        width: 500px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 66px;
         //background-color: #FFD700;
@@ -120,10 +94,8 @@
     .background-cien{
         display: flex;
         align-items: center;
-        width: 100%;
-        min-width: 500px;
-        height: 100%;
-        min-height: 260px;
+        width: 500px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 66px;
         //background-color: #1CF84C;
@@ -134,10 +106,8 @@
     .background-espor{
         display: flex;
         align-items: center;
-        width: 100%;
-        min-width: 500px;
-        height: 100%;
-        min-height: 260px;
+        width: 500px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 66px;
         //background-color: #0000FF;
@@ -148,10 +118,8 @@
     .background-reli{
         display: flex;
         align-items: center;
-        width: 100%;
-        min-width: 500px;
-        height: 100%;
-        min-height: 260px;
+        width: 500px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 66px;
         //background-color: #009B9B;
@@ -162,10 +130,8 @@
     .background-ativi{
         display: flex;
         align-items: center;
-        width: 100%;
-        min-width: 500px;
-        height: 100%;
-        min-height: 260px;
+        width: 500px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 66px;
         //background-color: #C71FC7;
@@ -176,10 +142,8 @@
     .background-poli{
         display: flex;
         align-items: center;
-        width: 100%;
-        min-width: 500px;
-        height: 100%;
-        min-height: 260px;
+        width: 500px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 66px;
         background-color: #F6163D;
@@ -190,10 +154,8 @@
     .background-lite{
         display: flex;
         align-items: center;
-        width: 100%;
-        min-width: 500px;
-        height: 100%;
-        min-height: 260px;
+        width: 500px;
+        height: 260px;
         border-radius: 20px;
         margin-top: 66px;
         //background-color: #FF6B00;
@@ -201,589 +163,835 @@
         //background: linear-gradient(180deg, rgba(157, 50, 50, 0.93) 47.33%, rgba(252, 0, 0, 0.93) 112.38%);
     }
 
+    @media (max-width: 1218px){
 
-    @media (max-width: 1140px) {
-        .conteriner-secundario{
-            width: 50%;
+        
+        .bloco-in{
+            width: 130px;
+        }
+
+        .background-music{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+
+        .background-lite{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+
+        .background-ativi{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+        .background-cien{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+        .background-espor{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+        .background-comunic{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+        .background-reli{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+        
+        .background-poli{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+    }
+
+    
+    @media (max-width: 1218px){
+        .bloco-in{
+            width: 100px;
+        }
+
+        .background-music{
+            width: 400px;
+            height: 220px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+
+        .background-lite{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 180px;
+                height: 200px;
+            }
+        }
+
+        .background-ativi{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+        .background-cien{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 205px;
+                height: 190px;
+            }
+        }
+        .background-espor{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 170px;
+                height: 190px;
+            }
+        }
+        .background-comunic{
+            width: 400px;
+            height: 200px;
             
-            height: 75%;
-            min-height: 50%;
-         }
-         .conteriner-primario{
-            width: 50%;
-            height: 75%;
-            min-height: 50%;
-         }
-        
-        .background-lite{
-            min-width: 80%;
-            min-height: 50%;
             img{
-                width: 53%;
-            }
-        }
-        .background-poli{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 50%;
+                margin-left: -25px;
+                width: 180px;
+                height: 190px;
             }
         }
         .background-reli{
-            min-width: 80%;
-            min-height: 50%;
+            width: 400px;
+            height: 200px;
             img{
-                width: 45%;
-                max-width: 150% ;
-                max-height: 236px;
-                margin-left: 2%;
+                width: 205px;
+                height: 200px;
             }
         }
-        .background-ativi{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 40%;
-            }
-        }
-        .background-espor{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 59%;
-                margin-left: -5%;
-            }
-        }
-        .background-cien{
-            min-width: 80%;
-            min-height: 4%;
-            img{
-                width: 43%;
-                margin-left: 3%;
-            }
-        }
-        .background-music{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 54%;
-
-            }
-        }
-        .background-comunic{
-            min-width: 90%;
-            min-height: 56%;
-            img{
-               
-                border-radius: 30px;
-                max-width:280px;
-                margin-left: 10%;
-                max-height: 250px;
-            }
-        }
-    }
-    @media (max-width: 1130px){
-        .background-comunic{
-            min-width: 100%;
-            min-height: 46%;
-            font-size: 85%;
-            img{
-                width: 100%;
-                border-radius: 90px;
-                max-width:275px;
-                margin-left: 7%;
-                max-height: 250px;
-            }
-        }
-        .background-poli{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 50%;
-                margin-left: -10%;
-            }
-        }
-        .background-espor{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 59%;
-                margin-left: -10%;
-            }
-        }
-        .background-lite{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 53%;
-                margin-left: -10%;
-            }
-        }
-    }
-    
-    @media (max-width: 1090px){
-        .background-comunic{
-            min-width: 100%;
-            min-height: 46%;
-            font-size: 85%;
-            img{
-                width: 90%;
-                border-radius: 1000px;
-                max-width:265px;
-                margin-left: 5%;
-                max-height: 250px;
-            }
-        }
-        .conteriner-primario{
-            width: 50%;
-            margin-top: -0.6%;   
-            height: 75%;
-            min-height: 50%;
-         }
-         .background-espor{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 54%;
-                margin-left: -10%;
-            }
-        }
-        .background-poli{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 47%;
-            }
-        }
-    }
-    @media (max-width: 1038px){
-        .conteriner-primario{
-            width: 50%;
-            margin-top: -1.1%;   
-            height: 75%;
-            min-height: 50%;
-         }
-        .background-lite{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                margin-left: -8%;
-                width: 50%;
-            }
-        }
-        .background-music{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 50%;
-
-            }
-        }
-
-        .background-espor{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 50%;
-                margin-left: -10%;
-            }
-        }
-        .background-poli{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 38%;
-            }
-        }
-        .background-comunic{
-            min-width: 100%;
-            min-height: 46%;
-            font-size: 85%;
-            img{
-                width: 58%;
-                border-radius: 30px;
-                max-width: 240px;
-                margin-left: 8%;
-                max-height: 210px;
-            }
-        }
-         .background-reli{
-            min-width: 50%;
-            min-height: 30%;
-            img{
-                width: 50%;
-                max-width: 143px ;
-                max-height: 220px;
-                margin-left: 5%;
-            }
-        }
-        .background-cien{
-            min-width: 80%;
-            min-height: 4%;
-            img{
-                width: 38%;
-                margin-left: 3%;
-            }
-        }
-    }
-
-    @media (max-width: 1020px){
-       
-    }
-
-    @media (max-width: 1000px){
-      
-         .background-reli{
-            min-width: 50%;
-            min-height: 30%;
-            img{
-                width: 40%;
-                max-width: 132px ;
-                max-height: 200px;
-                margin-left: 5%;
-            }
-        }
-
-        .background-ativi{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 37%;
-            }
-        }
-    }
-    @media (max-width: 980px){
-        .background-comunic{
-            min-width: 100%;
-            min-height: 46%;
-            font-size: 85%;
-            img{
-                width: 58%;
-                border-radius: 30px;
-                max-width: 240px;
-                margin-left: 6%;
-                max-height: 210px;
-            }
-        }
-    }
-
-
-    
-    @media (max-width: 960px) {
-
-        .background-comunic{
-            min-width: 100%;
-            min-height: 46%;
-            font-size: 85%;
-            img{
-                width: 58%;
-                border-radius: 30px;
-                max-width: 240px;
-                margin-left: 7%;
-                max-height: 210px;
-            }
-        }
-
-        .background-reli{
-            min-width: 50%;
-            min-height: 30%;
-            img{
-                width: 40%;
-                max-width: 132px ;
-                max-height: 180px;
-                margin-left: 5%;
-            }
-        }
-
-        .background-ativi{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 36%;
-            }
-        }
-    }
-    
-    @media (max-width: 955px){
-        .background-comunic{
-            min-width: 100%;
-            min-height: 46%;
-            font-size:75%;
-            img{
-                width: 58%;
-                border-radius: 30px;
-                max-width: 240px;
-                margin-left: 4%;
-                max-height: 210px;
-            }
-        }
-    }
-
-    @media (max-width: 920px) {
-        .conteriner-secundario{
-         
-        margin-top: -2px;          
-         }
-         .conteriner-primario{
         
-         }
-       
-         .background-comunic{
-            min-width: 100%;
-            min-height: 46%;
-            font-size: 65%;
+        .background-poli{
+            width: 400px;
+            height: 200px;
             img{
-                width: 58%;
-                border-radius: 30px;
-                max-width: 240px;
-                margin-left: 0%;
-                max-height: 210px;
+                width: 205px;
+                height: 200px;
+            }
+        }           
+    }
+
+    @media (max-width: 995px){
+        .bloco-in{
+            width: 60px;
+        }
+
+        .background-music{
+            width: 370px;
+            height: 200px;
+            img{
+                width: 205px;
+                height: 200px;
             }
         }
-      
-         .background-reli{
-            min-width: 40%;
-            min-height: 30%;
+
+        .background-lite{
+            width: 370px;
+            height: 200px;
             img{
-                width: 30px;
+                margin-left: -50px;
+                width: 180px;
+                height:190px;
+            }
+        }
+
+        .background-ativi{
+            width: 370px;
+            height: 200px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+        .background-cien{
+            width: 370px;
+            height: 200px;
+            img{
+                width: 220px;
+                height: 200px;
+                margin-top: -4px;
+            }
+        }
+        .background-espor{
+            width: 370px;
+            height: 200px;
+            img{
+                margin-left: -50px;
+                width: 205px;
+                height: 190px;
+            }
+        }
+        .background-comunic{
+            width: 370px;
+            height: 200px;
+            img{
+                margin-left: -50px;
+                width: 180px;
+                height: 190px;
+            }
+        }
+        .background-reli{
+            width: 370px;
+            height: 200px;
+            img{
+                width: 205px;
+                height: 200px;
+            }
+        }
+        
+        .background-poli{
+            width: 370px;
+            height: 200px;
+            img{
+                width: 205px;
+                height: 190px;
+            }
+        }           
+    }
+    
+
+    @media (max-width: 890px){
+        .bloco-in{
+            width: 40px;
+        }
+
+        .background-music{
+            width: 340px;
+            height: 180px;
+            img{
+                width: 185px;
                 height: 170px;
-                max-width: 28px ;
-                max-height: 10px;
-                margin-left: 1%;
+            }
+        }
+
+        .background-lite{
+            width: 340px;
+            height: 180px;
+            img{
+                width: 185px;
+                height: 170px;
+            }
+        }
+
+        .background-ativi{
+            width: 340px;
+            height: 180px;
+            img{
+                width: 185px;
+                height: 170px;
+            }
+        }
+        .background-cien{
+            width: 340px;
+            height: 180px;
+            img{
+                width: 185px;
+                height: 170px;
             }
         }
         .background-espor{
-            min-width: 80%;
-            min-height: 20%;
+            width: 340px;
+            height: 180px;
             img{
-                width: 50%;
-                margin-left: -10%;
+                width: 185px;
+                height: 170px;
             }
-        }
-        .background-reli{
-            min-width: 50%;
-            min-height: 30%;
-            img{
-                width: 50%;
-                max-width: 143px ;
-                max-height: 220px;
-                margin-left: 5%;
-            }
-        }
-        .background-ativi{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 37%;
-                margin-left: -20px;
-            }
-        }
-        .background-poli{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 40%;
-            }
-        }
-        .background-lite{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                margin-left: -8%;
-                width: 51%;
-            }
-        }
-    }
-
-    @media (max-width: 900px){
-        .conteriner-secundario{
-         
-            margin-top: -4px;          
-             }
-             .background-lite{
-                min-width: 80%;
-                min-height: 50%;
-                img{
-                    margin-left: -12%;
-                    width: 51%;
-                }
-            }
-    }
-
-
-    @media (max-width: 900px){
-        .conteriner-secundario{
-         
-            margin-top: -4px;          
-             }
-    }
-
-
-
-    @media (max-width: 900px){
-        .conteriner-secundario{
-         
-            margin-top: -4px;          
-             }
-    }
-
-    @media (max-width: 850px){
-        .conteriner-secundario{
-            width: 117%;
-            height: 20%;
-            margin-top: 0px;
-        }
-        .conteriner-primario{
-            width: 120%;
         }
         .background-comunic{
-            min-width: 100%;
-            min-height: 46%;
-            font-size:55%;
+            width: 340px;
+            height: 180px;
             img{
-                width:60%;
-                border-radius: 30px;
-                max-width: 240px;
-                margin-left:-5%;
-                max-height: 210px;
+                width: 185px;
+                height: 170px;
             }
         }
         .background-reli{
-            min-width: 50%;
-            min-height: 30%;
+            width: 340px;
+            height: 180px;
             img{
-                width: 40%;
-                max-width: 143px ;
-                max-height: 150px;
-                margin-left: 5%;
+                width: 185px;
+                height: 170px;
             }
         }
+        
+        .background-poli{
+            width: 340px;
+            height: 180px;
+            img{
+                width: 185px;
+                height: 170px;
+            }
+        }           
+    }
+
+    @media (max-width: 805px){
+        .bloco-in{
+            width: 35px;
+        }
+
+        .background-music{
+            width: 300px;
+            height: 140px;
+            img{
+                width: 170px;
+                height: 135px;
+            }
+        }
+
         .background-lite{
-            min-width: 80%;
-            min-height: 50%;
+            width: 300px;
+            height: 140px;
             img{
-                margin-left: -12%;
-                width: 51%;
+                width: 170px;
+                height: 135px;
+            }
+        }
+
+        .background-ativi{
+            width: 300px;
+            height: 140px;
+            img{
+                width: 170px;
+                height: 135px;
+            }
+        }
+        .background-cien{
+            width: 300px;
+            height: 140px;
+            img{
+                width: 170px;
+                height: 135px;
+            }
+        }
+        .background-espor{
+            width: 300px;
+            height: 140px;
+            img{
+                width: 170px;
+                height: 135px;
+            }
+        }
+        .background-comunic{
+            width: 300px;
+            height: 140px;
+            img{
+                margin-left: -70px;
+                width: 160px;
+                height: 125px;
+            }
+        }
+        .background-reli{
+            width: 300px;
+            height: 140px;
+            img{
+                width: 170px;
+                height: 135px;
             }
         }
         
+        .background-poli{
+            width: 300px;
+            height: 140px;
+            img{
+                width: 170px;
+                height: 135px;
+            }
+        }           
     }
 
+    @media (max-width: 715px){
+        .bloco-in{
+            width: 25px;
+        }
 
-    @media (max-width: 800px){
+        .background-music{
+            width: 280px;
+            height: 120px;
+            img{
+                width: 150px;
+                height: 110px;
+            }
+        }
+
+        .background-lite{
+            width: 280px;
+            height: 120px;
+            img{
+                width: 150px;
+                height: 110px;
+            }
+        }
+
+        .background-ativi{
+            width: 280px;
+            height: 120px;
+            img{
+                width: 150px;
+                height: 110px;
+            }
+        }
+        .background-cien{
+            width: 280px;
+            height: 120px;
+            img{
+                width: 150px;
+                height: 110px;
+            }
+        }
+        .background-espor{
+            width: 280px;
+            height: 120px;
+            img{
+                width: 150px;
+                height: 110px;
+            }
+        }
+        .background-comunic{
+            width: 280px;
+            height: 120px;
+            img{
+                width: 150px;
+                height: 110px;
+            }
+        }
+        .background-reli{
+            width: 280px;
+            height: 120px;
+            img{
+                width: 150px;
+                height: 110px;
+            }
+        }
         
+        .background-poli{
+            width: 280px;
+            height: 120px;
+            img{
+                width: 150px;
+                height: 110px;
+            }
+        }           
     }
 
-
-    
-
-
-    //@media (max-width: 768px){
-     //   
-    //}
-    @media (max-width: 580px) {
-        .conteiner-principal{
-            display: flex;
+    @media (max-width: 665px){
+        
+        .bloco-in{
+            width: 0px;
+        }
+        .divisão{
+            font-size: 300%;
+            display:block;
             align-items: center;
-            flex-direction: column;
             justify-content: center;
         }
-        .conteriner-secundario{
-            margin: 0px 0px 80px 0px;
-        }
-        .conteriner-primario{
-            margin: 0px 0px 0px;
-        }
 
-        .background-comunic{
-            min-height: 46%;
-            font-size: 85%;
+        .background-music{
+            width: 450px;
+            height: 220px;
             img{
-                width: 68%;
-                border-radius: 30px;
-                max-width: 240px;
-                margin-left: 2%;
-                max-height: 210px;
-            }
-        }
-        .background-ativi{
-            min-width: 100%;
-            min-height: 100%;
-            img{
-                width: 35%;
-                margin-left:-3%;
+                width: 250px;
+                height: 220px;
             }
         }
 
-        .conteriner-secundario{
-            width: 70%;
-            
-            height: 60%;
-            min-height: 50%;
-         }
-         .conteriner-primario{
-            width: 70%;
-            height: 60%;
-            min-height: 50%;
-         }
-        
         .background-lite{
-            min-width: 80%;
-            min-height: 50%;
+            width: 450px;
+            height: 220px;
             img{
-                width: 53%;
+                width: 250px;
+                height: 210px;
             }
         }
-        .background-poli{
-            min-width: 80%;
-            min-height: 50%;
+
+        .background-ativi{
+            width: 450px;
+            height: 220px;
             img{
-                width: 50%;
-            }
-        }
-        .background-reli{
-            min-width: 80%;
-            min-height: 50%;
-            img{
-                width: 45%;
-                max-width: 150% ;
-                max-height: 236px;
-                margin-left: 2%;
-            }
-        }
-        .background-espor{
-            min-width: 80%;
-            min-height: 20%;
-            img{
-                width: 59%;
-                margin-left: -5%;
+                width: 250px;
+                height: 210px;
             }
         }
         .background-cien{
-            min-width: 80%;
-            min-height: 4%;
+            width: 450px;
+            height: 220px;
             img{
-                width: 43%;
-                margin-left: 3%;
+                width: 250px;
+                height: 220px;
             }
         }
-        .background-music{
-            min-width: 80%;
-            min-height: 50%;
+        .background-espor{
+            width: 450px;
+            height: 220px;
             img{
-                width: 54%;
-
+                width: 260px;
+                height: 210px;
             }
         }
+        .background-comunic{
+            width: 450px;
+            height: 220px;
+            img{
+                margin-left: -20px;
+                margin-top: -2px;
+                width: 250px;
+                height: 220px;
+            }
+        }
+        .background-reli{
+            width: 450px;
+            height: 220px;
+            img{
+                width: 250px;
+                height: 220px;
+            }
+        }
+        
+        .background-poli{
+            width: 450px;
+            height: 220px;
+            img{
+                margin-top: -1.5px;
+                width: 250px;
+                height: 220px;
+            }
+        }
+        
     }
 
+    @media (max-width: 500px){
+        .background-music{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 230px;
+                height: 190px;
+            }
+        }
 
-    //@media (max-width: 480px) {
-    //    
-    //}
-    //
-    //@media (max-width: 320px){
-    //
-    //}
-    
+        .background-lite{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 230px;
+                height: 190px;
+            }
+        }
+
+        .background-ativi{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 230px;
+                height: 190px;
+            }
+        }
+        .background-cien{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 230px;
+                height: 190px;
+            }
+        }
+        .background-espor{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 230px;
+                height: 190px;
+            }
+        }
+        .background-comunic{
+            width: 400px;
+            height: 200px;
+            img{
+                margin-left: -40px;
+                width: 230px;
+                height: 190px;
+            }
+        }
+        .background-reli{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 230px;
+                height: 190px;
+            }
+        }
+        
+        .background-poli{
+            width: 400px;
+            height: 200px;
+            img{
+                width: 230px;
+                height: 190px;
+            }
+        }
+        
+    }
+
+    @media (max-width: 440px){
+        .background-music{
+            width: 350px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+
+        .background-lite{
+            width: 350px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+
+        .background-ativi{
+            width: 350px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-cien{
+            width: 350px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-espor{
+            width: 350px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-comunic{
+            width: 350px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-reli{
+            width: 350px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        
+        .background-poli{
+            width: 350px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        
+    }
+
+    @media (max-width: 360px){
+        .divisão{
+            font-size: 250%;
+        }
+        .background-music{
+            width: 310px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+
+        .background-lite{
+            width: 310px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+
+        .background-ativi{
+            width: 310px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-cien{
+            width: 310px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-espor{
+            width: 310px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-comunic{
+            width: 310px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-reli{
+            width: 310px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        
+        .background-poli{
+            width: 310px;
+            height: 170px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        
+    }
+
+    @media (max-width: 360px){
+        .divisão{
+            font-size: 250%;
+        }
+        .background-music{
+            width: 300px;
+            height: 160px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+
+        .background-lite{
+            width: 300px;
+            height: 160px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+
+        .background-ativi{
+            width: 300px;
+            height: 160px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-cien{
+            width: 300px;
+            height: 160px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-espor{
+            width: 300px;
+            height: 160px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-comunic{
+            width: 300px;
+            height: 160px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        .background-reli{
+            width: 300px;
+            height: 160px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        
+        .background-poli{
+            width: 300px;
+            height: 160px;
+            img{
+                width: 200px;
+                height: 160px;
+            }
+        }
+        
+    }
+
 }

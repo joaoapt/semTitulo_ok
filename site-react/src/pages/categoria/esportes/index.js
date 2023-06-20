@@ -10,30 +10,30 @@ export default function Index() {
 
 <div className='conteiner'>
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link  to='/public/esporte/pele' className="card">
+                <img className='img-silvio' src='/img/pele.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
-                        <h1 className='nome'>Senna</h1> 
-                        <p className="title">Empresário e apresentador de televisão</p>
+                        <h1 className='nome'>Pelé</h1> 
+                        <p className="title">Jogador de Futeboll</p>
                     </div>
                     <div className='botão-local'>
-                        <Link  to='/public/esporte/senna' className='botão-comunicar'>
+                        <Link  to='/public/esporte/pele' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link  to='/public/esporte/guga' className="card">
+                <img className='img-silvio' src='/img/guga.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
                         <h1 className='nome'>Guga</h1> 
-                        <p className="title">Jornalista</p>
+                        <p className="title">Tenista</p>
                     </div>
                     <div className='botão-local'>
                         <Link  to='/public/esporte/guga' className='botão-comunicar'>
@@ -41,41 +41,57 @@ export default function Index() {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link to='/public/esporte/senna' className="card">
+                <img className='img-silvio' src='/img/ayrton.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>    
-                        <h1 className='nome'>Pele</h1> 
-                        <p className="title">Jornalista</p>
+                        <h1 className='nome'>Senna</h1> 
+                        <p className="title">Piloto de Formula 1</p>
                     </div>
                    <div className='botão-local'>
-                        <Link to='/public/esporte/pele' className='botão-comunicar'>
+                        <Link to='/public/esporte/senna' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                    </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link to='/public/esporte/maria-esther' className="card">
+                <img className='img-silvio' src='/img/ve.png' alt=''/>
                 <div className='local-escrita'>    
                     <div className='sobre'>
-                        <h1 className='nome'>Socrates</h1> 
-                        <p className="title">Cartunista</p>
+                        <h1 className='nome'>Maria Esther</h1> 
+                        <p className="title">Tenista</p>
                     </div>
                     <div className='botão-local'>
-                        <Link to='/public/esporte/socrates' className='botão-comunicar'>
+                        <Link to='/public/esporte/maria-esther' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
                 </div>
+            </Link>
             </div>
+            <div className='local'>
+            <Link to='/public/esporte/marta' className="card">
+                <img className='img-silvio' src='/img/marta.png' alt=''/>
+                <div className='local-escrita'>    
+                    <div className='sobre'>
+                        <h1 className='nome'>Marta</h1> 
+                        <p className="title">Jogadora de Futeboll</p>
+                    </div>
+                    <div className='botão-local'>
+                        <Link to='/public/esporte/marta' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                    </div>
+                </div>
+            </Link>
             </div>
            </div> 
 

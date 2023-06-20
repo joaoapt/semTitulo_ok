@@ -10,12 +10,12 @@ export default function Index() {
 
 <div className='conteiner'>
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link  to='/public/literatura/carolina' className="card">
+                <img className='img-silvio' src='/img/ca.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
                         <h1 className='nome'>Carolina</h1> 
-                        <p className="title">Empresário e apresentador de televisão</p>
+                        <p className="title">Escritora Favelada</p>
                     </div>
                     <div className='botão-local'>
                         <Link  to='/public/literatura/carolina' className='botão-comunicar'>
@@ -23,51 +23,51 @@ export default function Index() {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link  to='/public/literatura/clarise' className="card">
+                <img className='img-silvio' src='/img/clarise.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>
-                        <h1 className='nome'>Ciarise</h1> 
-                        <p className="title">Jornalista</p>
+                        <h1 className='nome'>Clarice Lispector</h1> 
+                        <p className="title">Escritora e Jornalista</p>
                     </div>
                     <div className='botão-local'>
-                        <Link  to='/public/literatura/ciarise' className='botão-comunicar'>
+                        <Link  to='/public/literatura/clarise' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link to='/public/literatura/oscar-niemeyer' className="card">
+                <img className='img-silvio' src='/img/oscar-niemayer.png' alt=''/>
                 <div  className='local-escrita'>
                     <div className='sobre'>    
-                        <h1 className='nome'>Lima</h1> 
-                        <p className="title">Jornalista</p>
+                        <h1 className='nome'>Oscar Niemeyer</h1> 
+                        <p className="title">Arquiteto</p>
                     </div>
                    <div className='botão-local'>
-                        <Link to='/public/literatura/lima' className='botão-comunicar'>
+                        <Link to='/public/literatura/oscar-niemeyer' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                    </div>
                 </div>
-            </div>
+            </Link>
             </div>
 
             <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
+            <Link to='/public/literatura/montero' className="card">
+                <img className='img-silvio' src='/img/mt.png' alt=''/>
                 <div className='local-escrita'>    
                     <div className='sobre'>
                         <h1 className='nome'>Montero Lobato</h1> 
-                        <p className="title">Cartunista</p>
+                        <p className="title">Escritor e Editor</p>
                     </div>
                     <div className='botão-local'>
                         <Link to='/public/literatura/montero' className='botão-comunicar'>
@@ -75,23 +75,7 @@ export default function Index() {
                         </Link>
                     </div>
                 </div>
-            </div>
-            </div>
-            <div className='local'>
-            <div className="card">
-                <img className='img-silvio' src='/img/silvio.png' alt=''/>
-                <div className='local-escrita'>    
-                    <div className='sobre'>
-                        <h1 className='nome'>Paulo Coelho</h1> 
-                        <p className="title">Cartunista</p>
-                    </div>
-                    <div className='botão-local'>
-                        <Link to='/public/literatura/paulo' className='botão-comunicar'>
-                            <p>ver sobre</p>
-                        </Link>
-                    </div>
-                </div>
-            </div>
+            </Link>
             </div>
            </div> 
 

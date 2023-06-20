@@ -44,23 +44,6 @@ export default function Index() {
             </div>
 
             <div className='local'>
-            <Link to='/public/comunicador/maju' className="card">
-                <img className='img-silvio' src='/img/maju.png' alt=''/>
-                <div  className='local-escrita'>
-                    <div className='sobre'>    
-                        <h1 className='nome'>Maria Júlia Coutinho</h1> 
-                        <p className="title">Jornalista</p>
-                    </div>
-                   <div className='botão-local'>
-                        <Link to='/public/comunicador/maju' className='botão-comunicar'>
-                            <p>ver sobre</p>
-                        </Link>
-                   </div>
-                </div>
-            </Link>
-            </div>
-
-            <div className='local'>
             <Link to='/public/comunicador/mauricio' className="card">
                 <img className='img-silvio' src='/img/mauricio.png' alt=''/>
                 <div className='local-escrita'>    
@@ -70,6 +53,23 @@ export default function Index() {
                     </div>
                     <div className='botão-local'>
                         <Link to='/public/comunicador/mauricio' className='botão-comunicar'>
+                            <p>ver sobre</p>
+                        </Link>
+                    </div>
+                </div>
+            </Link>
+            </div>
+
+            <div className='local'>
+            <Link to='/public/comunicador/faustao' className="card">
+                <img className='img-silvio' src='/img/faustao.png' alt=''/>
+                <div  className='local-escrita'>
+                    <div className='sobre'>
+                        <h1 className='nome'>Faustão</h1> 
+                        <p className="title">Apresentador de TV</p>
+                    </div>
+                    <div className='botão-local'>
+                        <Link  to='/public/comunicador/faustao' className='botão-comunicar'>
                             <p>ver sobre</p>
                         </Link>
                     </div>
